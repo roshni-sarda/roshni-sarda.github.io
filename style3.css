@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing: border-box;
+    /* border: 2px solid red ; */
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+   background-image:url(../abc.png);
+   background-size:cover;
+}
+nav{
+    background-color:#02475e;
+    height:90px;
+    width:100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-flex;
+    line-height:9px;
+    margin: 0 5px;
+    padding:45px;
+    font-weight: bold;
+
+}
+a{
+    color:whitesmoke;
+    font-size:20px;
+}
+.skills{
+line-height: 70px;
+font-size:30px;
+margin: 50px 0px 0px 100px;
+}
+@media only screen and (max-width:768px){
+    body{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+       background-image:url(../bg.jpg);
+       background-size:cover;
+    }
+    nav{
+        background-color:#02475e;
+        height:90px;
+        width:100%;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-flex;
+        line-height:9px;
+        margin: 0 5px;
+        padding:45px;
+        font-weight: bold;
+    
+    }
+    a{
+        color:whitesmoke;
+        font-size:20px;
+    }
+    .skills{
+    line-height: 70px;
+    font-size:30px;
+    margin: 50px 0px 0px 100px;
+    }
+}
+@media only screen and (max-width:480px){
+    body{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+       background-image:url(../bg.jpg);
+       background-size:cover;
+    }
+    nav{
+        background:#02475e;
+        height:50px;
+        width:100%;
+    }
+    nav ul{
+        display: flex;
+        justify-content:center;
+        text-align:center;
+        font-weight: lighter;
+        
+    }
+    nav ul li{
+        padding:6px;
+        margin-right:-3.5px;
+        margin-top:12px;
+    
+    }
+    
+    
+    a{
+        color:whitesmoke;
+        font-size:20px;
+    }
+    .skills{
+    line-height:45px;
+    font-size:15px;
+    margin: 50px 0px 0px 100px;
+    }
+}

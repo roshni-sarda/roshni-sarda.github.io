@@ -1,0 +1,156 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style:none;
+    box-sizing: border-box;
+    /* border: 2px solid red ; */
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    background-image:url(../bg.jpg);
+
+   font-family: 'Alegreya SC', serif;
+}
+nav{
+    background:#02475e;
+    height:90px;
+    width:100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-flex;
+    line-height:9px;
+    margin: 0 5px;
+    padding:45px;
+    font-weight: bold;
+
+}
+a{
+    color:whitesmoke;
+    font-size:20px;
+}
+img{
+    margin:120px 0px 70px 70px ;
+    size:500px;
+    
+}
+.aboutme{
+    display:flex;
+    text-align:center;
+    margin:-380px 200px 20px 450px;
+    line-height:60px;
+    font-size:30px;
+}
+h1{
+ margin-left:120px;
+}
+#social{
+    margin-left:760px;
+margin-top:100px;
+word-spacing:20px;
+width:25%;
+}
+#social a{
+    color: black;
+}
+
+@media only screen and (max-width:786px){
+    body{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+        background-image:url(../bg.jpg);
+    
+       font-family: 'Alegreya SC', serif;
+    }
+    nav{
+        background:#02475e;
+        height:90px;
+        width:100%;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-flex;
+        line-height:9px;
+        margin: 0 5px;
+        padding:45px;
+        font-weight: bold;
+    
+    }
+    a{
+        color:whitesmoke;
+        font-size:20px;
+    }
+    img{
+        margin:12px 0px 10px 220px ;
+
+        
+    }
+    .aboutme{
+        margin:100px;
+        margin-top:0px;
+        font-size:25px;
+        line-height:45px;
+
+    }
+    h1{
+     margin-left:120px;
+    }
+    
+}
+@media only screen and (max-width:480px){
+    body{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:20px;
+        background-image:url(../bg.jpg);
+    
+       font-family: 'Alegreya SC', serif;
+    }
+    nav{
+        background:#02475e;
+        height:50px;
+        width:100%;
+    }
+    nav ul{
+        display: flex;
+        justify-content:center;
+        text-align:center;
+        
+    }
+    nav ul li{
+        padding: 10px;
+        margin-right:-3.5px;
+        margin-top:12px;
+    
+    }
+    
+    a{
+        color:whitesmoke;
+        font-size:20px;
+    }
+    img{
+        margin:12px 0px 10px 220px ;
+        display: none;
+
+        
+    }
+    .aboutme{
+        margin:60px;
+        margin-top:20px;
+        font-size:25px;
+        line-height:45px;
+    
+
+    }
+    h1{
+     margin-left:120px;
+    }
+    
+}
