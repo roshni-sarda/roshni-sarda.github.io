@@ -9,7 +9,7 @@
 body{
     font-family: 'Arvo', serif;
     font-size:20px;
-   background-image:url(../abc.png);
+   background-image:url("../abc.png");
    background-size:cover;
    font-family: 'Alegreya SC', serif;
 }
