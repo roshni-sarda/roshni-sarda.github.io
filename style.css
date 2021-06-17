@@ -38,7 +38,6 @@ a{
     
     
 }
-
 .intro{
     line-height:50px;
 }
@@ -198,7 +197,7 @@ h6{
     nav{
         background:#02475e;
         height:50px;
-        width:100%;
+        width:115%;
     }
     nav ul{
         display: flex;
@@ -216,6 +215,7 @@ h6{
         color:whitesmoke;
         font-size:20px;
     }
+    
     .intro{
         margin-left:-10px;
         line-height:50px;
