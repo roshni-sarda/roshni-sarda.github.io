@@ -4,7 +4,7 @@
     text-decoration:none;
     list-style:none;
     box-sizing: border-box;
-     /* border: 2px solid red ;  */
+     /* border: 2px solid red ;   */
 }
 body{
     font-family: 'Arvo', serif;
@@ -35,12 +35,10 @@ nav ul li{
 a{
     color:whitesmoke;
     font-size:20px;
+    
+    
 }
-a:hover{
-    background:black;
-    padding:7px 10px;
-    border-radius: 3px;
-}
+
 .intro{
     line-height:50px;
 }
