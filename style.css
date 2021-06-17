@@ -36,6 +36,11 @@ a{
     color:whitesmoke;
     font-size:20px;
 }
+a:hover{
+    background:black;
+    padding:7px 10px;
+    border-radius: 3px;
+}
 .intro{
     line-height:50px;
 }
